@@ -11,7 +11,7 @@ curl -o /tmp/crowdstrikeInstaller.py https://repo.geos.tamu.edu/common-configs/t
 if [ -x /usr/bin/python3 ]; then
   /usr/bin/python3 /tmp/crowdstrikeInstaller.py
 else
-  curl -o /tmp/crowdstrikeInstaller.py https://repo.geos.tamu.edu/common-configs/toolbox/python3Installer.py && chmod +x /tmp/python3Installer.py
+  curl -o /tmp/python3Installer.py https://repo.geos.tamu.edu/common-configs/toolbox/python3Installer.py && chmod +x /tmp/python3Installer.py
   /usr/bin/python /tmp/python3Installer.py
   /usr/bin/python3 /tmp/crowdstrikeInstaller.py
 fi
