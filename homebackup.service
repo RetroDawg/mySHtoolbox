@@ -3,7 +3,7 @@ Description=Backup service for local home directory
 
 [Service]
 Type=simple
-ExecStart=/opt/geosscripts/compressdirectory.sh
+ExecStart=/opt/geosscripts/rotatehomedirectory.sh
 
 [Install]
 WantedBy=multi-user.target
