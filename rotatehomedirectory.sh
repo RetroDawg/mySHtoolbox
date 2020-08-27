@@ -1,3 +1,4 @@
+#!/bin/sh
 # Compress local /home directory 
 # Get current date
 VAR_CURRENTDATE=`date +%Y-%m-%d`
